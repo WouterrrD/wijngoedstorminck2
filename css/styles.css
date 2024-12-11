@@ -10868,11 +10868,10 @@ video.bg-video {
 }
 
 .logo {
-  position: relative;
-  overflow: hidden;
-  z-index: 2;
   width: 60%;
   height: auto;
+  justify-content: flex-start; /* Align items to the left */
+  align-items: center; /* Center items vertically */
 }
   
 .masthead {
