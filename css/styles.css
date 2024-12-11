@@ -10865,15 +10865,7 @@ video.bg-video {
   body video {
     display: none;
   }
-}
-
-.logo {
-  width: 60%;
-  height: auto;
-  justify-content: flex-start; /* Align items to the left */
-  align-items: center; /* Center items vertically */
-}
-  
+}  
 .masthead {
   position: relative;
   overflow: hidden;
@@ -10882,6 +10874,14 @@ video.bg-video {
   align-items: center;
   justify-content: center;
 }
+
+.masthead .logo {
+  width: 120%;
+  height: auto;
+  justify-content: flex-start; /* Align items to the left */
+  align-items: center; /* Center items vertically */
+}
+
 .masthead:before {
   content: "";
   position: absolute;
