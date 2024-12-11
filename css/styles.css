@@ -10867,11 +10867,16 @@ video.bg-video {
   }
 }
 
-.logo img {
-    width: 100%;
+.logo {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
     height: auto;
-    display: block;
-    margin-bottom: 20px;
+    --margin-bottom: 20px;
 }
 
 .masthead {
