@@ -10867,6 +10867,14 @@ video.bg-video {
   }
 }
 
+.logo {
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+  width: 20%;
+  height: auto;
+}
+  
 .masthead {
   position: relative;
   overflow: hidden;
