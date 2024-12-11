@@ -10966,13 +10966,3 @@ video.bg-video {
     width: auto;
   }
 }
-
-.logo {
-    width: 300px; /* Set the width of the image */
-    height: auto; /* Maintain aspect ratio */
-    /*border: 5px solid black; /* Add a border around the image */
-    /*border-radius: 10px; /* Make the edges rounded */
-    /*box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add a shadow */
-    margin: 20px auto; /* Center the image with some spacing */
-    display: block; /* Make the image a block element */
-}
