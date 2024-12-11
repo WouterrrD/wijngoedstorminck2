@@ -10866,6 +10866,14 @@ video.bg-video {
     display: none;
   }
 }
+
+.logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
 .masthead {
   position: relative;
   overflow: hidden;
